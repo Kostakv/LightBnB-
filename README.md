@@ -41,3 +41,41 @@
   * `apiRoutes.js` and `userRoutes.js` are responsible for any HTTP requests to `/users/something` or `/api/something`. 
   * `json` is a directory that contains a bunch of dummy data in `.json` files.
   * `database.js` is responsible for all queries to the database. It doesn't currently connect to any database, all it does is return data from `.json` files.
+
+
+## Installation
+ 
+ ```
+fork and clone repo
+```
+
+```
+npm install
+```
+
+```
+run the migrations then seed files in /migrations /seeds
+```
+
+```
+cd into LightBnB_WebApp-master
+```
+
+```
+npm run local
+```
+
+
+### Don't forget to change database credentials at 
+```
+LightBnB_WebApp-master/server/database.js
+```
+
+
+![image](screenshots/homepage.png)home page
+
+![image](screenshots/yourreservations.png)
+your reservations
+
+![image](screenshots/yourlistings.png)
+your listings
